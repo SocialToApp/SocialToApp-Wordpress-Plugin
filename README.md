@@ -10,7 +10,8 @@ You can now shorten links directly from WordPress using shortcode. If you don't 
 3. On the right side, under Theme Files, find and click on Theme Functions (functions.php)
 4. Paste the code below at the very end of the file and save
 
-###  Code
+###  Code to add in functions.php
+Attention, change YOURAPIKEY with your api key generated on SocialToApp
 ```php
 // This code simply registers the shortcode "shorturl". You can change it if you want something else 
 add_shortcode("shorturl", "pus_shortcode_shorten_url");
